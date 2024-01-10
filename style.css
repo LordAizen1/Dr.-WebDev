@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 0.7em;
+    text-align: center;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+}
+
+nav {
+    border-style: solid;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border: 1px solid #58A4B0;
+    border-left: none;
+    border-right: none;
+    height: 27px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+
+.nav-header {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.nav-btn {
+    margin: 5%; /* Adjust margins using percentages for responsiveness */
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    display: flex;
+
+}
+
+.centered {
+    /* font-size: large; */
+    text-align: center;
+    color: #A9BCD0;
+}
+
+.ad {
+    display: block;
+    margin: 10px auto 10px auto;
+}
+
+header {
+    font-size: larger;
+    margin-bottom: 20px;
+    color: #A9BCD0;
+    text-align: center;
+}
+
+section, article, aside {
+    margin-bottom: 20px;
+    color: #A9BCD0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #58A4B0;
+    text-align: center;
+}
+
+.imp {
+    font-size: larger;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#me {
+    font-size: large;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px; 
+    padding: 0 20px; 
+    font-style: oblique;
+}
+
+.contact {
+    width: auto;
+    padding: 1.5%;
+    margin: 0 0 0 25px;
+
+}
+
+#con {
+    text-align: right;
+    
+}
+
+#form {
+    text-align: center;
+    margin: 50px;
+}
+
+#last-footer {
+    color: #58A4B0;
+    display: flex;
+    justify-content: space-evenly;
+}
